@@ -1,0 +1,147 @@
+body{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#eee;
+}
+
+
+.form-container{
+    margin-top: 100px;
+    margin-bottom:100px;
+    position:relative;
+    max-width:400px;
+    padding:20px;
+    padding-bottom:60px;
+    background-color:#fff;
+    border-radius:8px;
+    width:100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.form-container h3{
+    font-size:25px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+    color:#141850;
+    text-align:center;
+}
+form .form-field{
+    margin-bottom:8px;
+}
+.form-container form{
+    margin-top:20px;
+}
+
+form .input-field{
+    position:relative;
+    height:55px;
+    width:100%;
+
+}
+
+.input-field input{
+    padding:10px 15px;
+    font-size:16px;
+    margin:8px 0;
+    background:#eee;
+    width:100%;
+    outline:none;
+    border:none;
+    border-radius:5px;
+
+}
+
+
+.input-field .show-hide{
+    position:absolute;
+    right:13px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:16px;
+    color:#919191;
+    cursor:pointer;
+    padding:4px;
+}
+.input-field .check-ok{
+    position:absolute;
+    right:30px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:16px;
+    color:green;
+    padding:4px;
+    display:none;
+}
+
+.form-field .error{
+    display:flex;
+    align-items: center;
+    margin-top:6px;
+    color:crimson;
+    font-size:14px;
+    display:none;
+}
+.error .error-icon{
+    margin-right:6px;
+    margin-left:4px;
+    font-size:15px;
+}
+
+.password-field .error{
+    align-items:flex-start;
+}
+.password-field .error-icon{
+    margin-top:4px;
+}
+.button{
+    margin-top:15px;
+}
+.button input{
+    background:#fbd0d9;
+    width:100%;
+    padding:10px 15px;
+    color:crimson;
+    text-transform:capitalize;
+    font-size:20px;
+    cursor:pointer;
+    
+}
+.button input:hover{
+    background: crimson;
+    transform:scale(.98);
+    color:#fff;
+}
+
+.invalid .error{
+    display:flex;
+}
+.invalid input{
+    border:solid 2px;
+    border-color:crimson;
+   
+}
+.success input{
+    border-color:green;
+}
+.form-container .store-details{
+    font-size:18px;
+    
+    text-transform: capitalize;
+    margin-bottom:5px;
+   
+}
+
+.form-container .form-footer{
+    text-align:center;
+    margin-top:10px;
+}
+
+.form-container .privacy-text{
+    display:flex;
+    line-height:1em;
+}
+.privacy-text .privacy{
+    margin-right:10px;
+}
+
